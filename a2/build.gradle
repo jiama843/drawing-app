@@ -1,0 +1,10 @@
+plugins {
+  id 'java'
+  id 'application'
+}
+
+application{
+  mainClassName = 'Main.Main'
+}
+
+sourceSets.main.java.srcDirs = ['src']
